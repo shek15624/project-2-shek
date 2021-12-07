@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+/* Header Top */
+*{
+    box-sizing: border-box;
+}
+.header-top .collapse{
+    justify-content: end;
+}
+/* Header Button */
+.header-top .navbar-nav li{
+    padding: 6px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.header-top .navbar-nav .nav-link{
+    padding: 12px 8px;
+    color: black;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.header-top .navbar-nav .active a{
+    background-color: red;
+    color: white;
+    border-radius: 0 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.header-top .navbar-nav .nav-link:hover{
+    background: red;
+    border-radius: 0 15px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.header-top img{
+    vertical-align: middle;
+    border-style: none;
+}
+
+.carousel .active{
+    background-color: tomato;
+}
+.carousel li{
+    background-color: tomato;
+}
+/* Media Query Header */
+@media(max-width: 320px){
+    .header-top img{
+        width: 216px;
+    }
+    .carousel-inner img{
+        margin-top: 92px;
+    }
+}
+@media(max-width: 375px){
+    .header-top img{
+        width: 216px;
+    }
+    .carousel-inner img{
+        margin-top: 92px;
+    }
+}
+@media(max-width: 425px){
+    .header-top img{
+        width: 216px;
+    }
+    .carousel-inner img{
+        margin-top: 92px;
+    }
+}
+/*Mopile Device Completed Header Section */
+/* BestWishes Box Style Started */
+.bestwishes-box{
+    padding: 70px 0px;
+}
+.bestwishes-box h2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+    font-weight: 400;
+    color: red;
+}
+.bestwishes-box .title{
+    text-align: center;
+    margin-bottom: 30px;
+}
